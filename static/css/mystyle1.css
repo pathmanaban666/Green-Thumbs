@@ -1,0 +1,104 @@
+#image{
+    object-fit: fill; 
+    width: 100%; 
+    height: 100%; 
+    position: absolute;
+}
+#navbar{
+    background-color: rgb(80, 87, 151, 0.2);
+    border-bottom-right-radius: 15px   ;
+    border-bottom-left-radius: 15px;
+}
+#navbar:hover{
+    background-color: rgb(80, 87, 151, 0.3);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.1);
+}
+.container a{
+    font-weight: bolder;  
+    color: rgb(0, 0, 0);
+}
+.container a:hover{
+    font-weight: bolder;  
+    color: rgb(80, 87, 151);
+}
+#panel{
+    top: 200px;
+    right: 150px; 
+    position: absolute; 
+    text-align: center;
+    background-color: rgb(80, 87, 151, 0.2); 
+    border-radius: 15px ;
+}
+#panel:hover{
+    top: 200px;
+    right: 150px; 
+    position: absolute; 
+    text-align: center;
+    background-color: rgb(80, 87, 151, 0.3); 
+    box-shadow: 3px 8px 18px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 15px ;
+}
+.new{
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+     
+}
+.new a{
+    color: rgb(0, 0, 0);
+    background-color: #505797;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.new a:hover{
+    background-color: #505797;
+    font-size: 105%;
+    box-shadow: 2px 8px 16px 0 rgba(0,0,0,0.2);
+}
+.variable{
+    position: absolute;
+    color: rgb(53, 40, 32);
+}
+
+.detail li{
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.card {
+    display: table; 
+    margin-bottom: 20px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 30%;
+    background-color: rgba(40, 77, 29, 0.8);
+    font-weight: bolder;
+}
+
+.card:hover {
+    background-color: rgba(48, 88, 2, 0.8);
+    font-size: 105%;
+    box-shadow: 2px 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card #button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 154, 255, 0.4);
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.card #button:hover {
+    background-color: #505797;
+    font-size: 105%;
+    box-shadow: 2px 8px 16px 0 rgba(0,0,0,0.2);
+}
