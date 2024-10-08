@@ -1,4 +1,4 @@
-##Green Thumbs
+## Green Thumbs
 
 Welcome to the House Plants Care website! This platform provides comprehensive care tips for house plants and offers a selection of house plants for sale.
 
